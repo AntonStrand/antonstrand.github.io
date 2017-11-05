@@ -1,1 +1,38 @@
-@import 'base';
+header {
+  width: 100%;
+  height: 3.5em;
+  border-bottom: 1px solid darken($background-color, 10%);
+  display: flex;
+  justify-content: space-between;
+
+  .logotype,
+  .navigation,
+  .navigation li {
+    display: inline-block;
+  }
+
+  .logotype {
+    margin-left: 2em;
+    text-align: left;
+    margin-top: 1em;
+  }
+  
+  .navigation {
+    text-align: right;
+    margin-right: 2em;
+  }
+
+  .navigation li {
+    margin-left: 1.5em;
+  }
+
+  .navigation li a {
+    color: $font-color;
+    text-decoration: none;
+  }
+
+  .current {
+    text-decoration: underline;
+  }
+}
+
