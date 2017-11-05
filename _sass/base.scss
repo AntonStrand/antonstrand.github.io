@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Lato|Inconsolata:700');
 
 $font-stack: 'Lato', Arial, sans-serif !default;
 $font-size: 16px;
@@ -10,4 +10,16 @@ body {
   font-size: $font-size;
   color: $font-color;
   background: $background-color;
+}
+
+.page-content {
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Inconsolata', monospace;
+  font-size: 6em;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  margin-left: .2em;
 }
