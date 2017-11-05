@@ -3,8 +3,10 @@
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
-title: About me
+title: Anton Strand
 ---
 
-# About me
-Some short text about me.
+# Hi.
+My name is Anton Strand and I'm a swedish UI/UX designer and a web developer to be.
+
+Here is my [blog](blog.html).
