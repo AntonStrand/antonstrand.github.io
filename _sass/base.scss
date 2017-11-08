@@ -9,7 +9,7 @@ $divider-color: #D1D1D1;
 $hover-color: #45BFFF;
 $normal: 400;
 $bold: 700;
-$background-color: #F2F2F2;
+$background-color: #F9F9F9;
 
 body {
   font-family: $body-font-stack;
@@ -22,15 +22,6 @@ body {
   text-align: center;
 }
 
-h1 {
-  font-family: $headline-font-stack;
-  color: $headline-font-color;
-  font-size: 6em;
-  margin-bottom: 0;
-  padding-bottom: 0;
-  margin-left: .2em;
-}
-
 a {
   text-decoration: none;
   color: $headline-font-color;
@@ -41,9 +32,20 @@ a:hover {
   padding-bottom: .05em;
 }
 
-main .wrapper {
-  margin: 0 auto;
-  padding: 1em;
+main {
+  .wrapper {
+    margin: 0 auto;
+    padding: 1em;
+  }
+
+  .home-wrapper h1 {
+    font-family: $headline-font-stack;
+    color: $headline-font-color;
+    font-size: 6em;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    margin-left: .25em;
+  }
 
   a {
     font-weight: $bold;

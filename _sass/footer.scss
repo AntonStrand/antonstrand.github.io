@@ -1,43 +1,31 @@
 footer {
   text-align: center;
-
   .wrapper {
     border-top: 1px solid $divider-color;
-    margin: 3em auto;
-    padding: .5em 1em;
+    margin: 4em auto;
+    padding-top: .5em;
     width: 80%;
     max-width: 800px;
   }
 
-
   ul,
   ul li {
-    display: inline-flex;
+    display: inline-block;
+    margin-bottom: .5em;
   }
   
   ul li {
-    text-decoration: none;
-    vertical-align: baseline;
     margin-right: 1.5em;
 
     svg {
       display: inline-flex;
-      // align-items: center;
       vertical-align: middle;
       position: relative;
       height: 1.5em;
-      // width: 1.5em;
-    }
-
-    .icon {
-      margin: 0;
-      padding: 0;
     }
 
     .label {
       margin-left: .4em;
-     // color: $headline-font-color;
-      text-decoration: none;
     }
 
     a:hover .icon {
