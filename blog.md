@@ -6,5 +6,11 @@ layout: blog
 title: Blogg
 ---
 
-# Bloggen.
-random blog posts.
+![site.post[0].alt]({{ site.posts[0].image}})
+# {{ site.posts[0].title }}
+{{ site.posts[0].date | date: "%-d %B - %Y"}}
+
+{{ site.posts[0].excerpt }}
+
+[read more]({{ site.posts[0].url }})
+
