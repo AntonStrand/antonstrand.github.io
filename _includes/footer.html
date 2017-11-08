@@ -1,33 +1,36 @@
 <footer>
   <div class="wrapper">
-  <ul class="contact-list">
-    {% if site.location %}
-    <li>
-        <span class="icon">{% include icn-location.svg %}</span><span class="label">{{ site.location }}</span>
-    </li>
-    {% endif %} {% if site.email %}
-    <li>
-      <a href="mailto:" {{ site.email }}>
-        <span class="icon">{% include icn-email.svg %}</span>
-        <span class="label">{{ site.email }}</span>
-      </a>
-    </li>
-    {% endif %}
-  </ul>
-  <ul class="social-media-list">
-    {% if site.github_username %}
-    <li>
-      {% include icon-github.html username=site.github_username %}
-    </li>
-    {% endif %} {% if site.twitter_username %}
-    <li>
-      {% include icon-twitter.html username=site.twitter_username %}
-    </li>
-    {% endif %} {% if site.facebook_username %}
-    <li>
-      {% include icon-facebook.html username=site.facebook_username %}
-    </li>
-    {% endif %}
-  </ul>
-</div>
+    <ul class="contact-list">
+      {% if site.location %}
+      <li>
+        <a href="http://tiny.cc/vztroy">
+          <span class="icon">{% include icn-location.svg %}</span>
+          <span class="label">{{ site.location }}</span>
+        </a>
+      </li>
+      {% endif %} {% if site.email %}
+      <li>
+        <a href="mailto:" {{ site.email }}>
+          <span class="icon">{% include icn-email.svg %}</span>
+          <span class="label">{{ site.email }}</span>
+        </a>
+      </li>
+      {% endif %}
+    </ul>
+    <ul class="social-media-list">
+      {% if site.github_username %}
+      <li>
+        {% include icon-github.html username=site.github_username %}
+      </li>
+      {% endif %} {% if site.twitter_username %}
+      <li>
+        {% include icon-twitter.html username=site.twitter_username %}
+      </li>
+      {% endif %} {% if site.facebook_username %}
+      <li>
+        {% include icon-facebook.html username=site.facebook_username %}
+      </li>
+      {% endif %}
+    </ul>
+  </div>
 </footer>
