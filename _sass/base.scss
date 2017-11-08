@@ -10,16 +10,13 @@ $hover-color: #45BFFF;
 $normal: 400;
 $bold: 700;
 $background-color: #F9F9F9;
+$max-width: 800px;
 
 body {
   font-family: $body-font-stack;
   font-size: $font-size;
   color: $body-font-color;
   background: $background-color;
-}
-
-.page-content {
-  text-align: center;
 }
 
 a {
@@ -35,19 +32,18 @@ a:hover {
 main {
   .wrapper {
     margin: 0 auto;
-    padding: 1em;
+    padding: 0 1em;
+    max-width: $max-width;
   }
 
-  .home-wrapper h1 {
-    font-family: $headline-font-stack;
-    color: $headline-font-color;
-    font-size: 6em;
-    margin-bottom: 0;
-    padding-bottom: 0;
-    margin-left: .25em;
-  }
-
-  a {
-    font-weight: $bold;
+  .home-wrapper {
+    text-align: center;
+    
+    h1 {
+      font-size: 6em;
+      margin-bottom: 0;
+      padding-bottom: 0;
+      margin-left: .25em;
+    }
   }
 }
