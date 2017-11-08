@@ -1,14 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Inconsolata:700');
 
-$font-stack: 'Lato', Arial, sans-serif !default;
+$body-font-stack: 'Lato', Arial, sans-serif !default;
+$headline-font-stack: 'Inconsolata', monospace !default;
 $font-size: 16px;
-$font-color: #181818;
-$background-color: #f2f5f7;
+$body-font-color: #6A6A6A;
+$headline-font-color: #404040;
+$divider-color: #D1D1D1;
+$hover-color: #45BFFF;
+$normal: 400;
+$bold: 700;
+$background-color: #F2F2F2;
 
 body {
-  font-family: $font-stack;
+  font-family: $body-font-stack;
   font-size: $font-size;
-  color: $font-color;
+  color: $body-font-color;
   background: $background-color;
 }
 
@@ -17,9 +23,29 @@ body {
 }
 
 h1 {
-  font-family: 'Inconsolata', monospace;
+  font-family: $headline-font-stack;
+  color: $headline-font-color;
   font-size: 6em;
   margin-bottom: 0;
   padding-bottom: 0;
   margin-left: .2em;
+}
+
+a {
+  text-decoration: none;
+  color: $headline-font-color;
+}
+
+a:hover {
+  color: $hover-color;
+  padding-bottom: .05em;
+}
+
+main .wrapper {
+  margin: 0 auto;
+  padding: 1em;
+
+  a {
+    font-weight: $bold;
+  }
 }
