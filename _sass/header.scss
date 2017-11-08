@@ -27,7 +27,8 @@ header {
   }
 
   .navigation li a {
-    color: $font-color;
+    color: $headline-font-color;
+    font-weight: $bold;
     text-decoration: none;
   }
 
