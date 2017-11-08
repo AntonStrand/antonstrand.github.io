@@ -4,14 +4,14 @@
       {% if site.location %}
       <li>
         <a href="http://tiny.cc/vztroy">
-          <span class="icon">{% include icn-location.svg %}</span>
+          <span class="icon">{% include icons/icn-location.svg %}</span>
           <span class="label">{{ site.location }}</span>
         </a>
       </li>
       {% endif %} {% if site.email %}
       <li>
         <a href="mailto:" {{ site.email }}>
-          <span class="icon">{% include icn-email.svg %}</span>
+          <span class="icon">{% include icons/icn-email.svg %}</span>
           <span class="label">{{ site.email }}</span>
         </a>
       </li>
@@ -20,15 +20,24 @@
     <ul class="social-media-list">
       {% if site.github_username %}
       <li>
-        {% include icon-github.html username=site.github_username %}
+        <a href="https://github.com/{{ site.github_username }}">
+          <span class="icon">{% include icons/icn-github.svg %}</span>
+          <span class="label">{{ site.github_username }}</span>
+        </a>
       </li>
       {% endif %} {% if site.twitter_username %}
       <li>
-        {% include icon-twitter.html username=site.twitter_username %}
+        <a href="https://twitter.com/{{ site.twitter_username }}">
+          <span class="icon">{% include icons/icn-twitter.svg %}</span>
+          <span class="label">{{ site.twitter_username }}</span>
+        </a>
       </li>
       {% endif %} {% if site.facebook_username %}
       <li>
-        {% include icon-facebook.html username=site.facebook_username %}
+        <a href="https://facebook.com/apos28">
+          <span class="icon">{% include icons/icn-facebook.svg %}</span>
+          <span class="label">{{ site.facebook_username }}</span>
+        </a>
       </li>
       {% endif %}
     </ul>
