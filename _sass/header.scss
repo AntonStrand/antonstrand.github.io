@@ -24,6 +24,9 @@ header {
 
   .navigation li {
     margin-left: 1.5em;
+    .current {
+      color: $hover-color;
+    }
   }
 
   .navigation li a {
@@ -32,8 +35,5 @@ header {
     text-decoration: none;
   }
 
-  .current {
-    text-decoration: underline;
-  }
 }
 

@@ -30,7 +30,7 @@ navigation:
   - title: Om mig
     url: /
   - title: Blogg
-    url: /blog/
+    url: /blog.html
 
 # Build settings
 markdown: kramdown
