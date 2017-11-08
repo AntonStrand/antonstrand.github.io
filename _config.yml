@@ -24,15 +24,16 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: apos28
 github_username:  antonstrand
 facebook_username: Anton Strand
+location: Kalmar
 navigation:
-  - title: Home
+  - title: Om mig
     url: /
-  - title: Blog
+  - title: Blogg
     url: /blog/
 
 # Build settings
 markdown: kramdown
-theme: minima
+# theme: minima
 plugins:
   - jekyll-feed
 
