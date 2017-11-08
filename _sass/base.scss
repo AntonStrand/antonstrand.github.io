@@ -4,7 +4,8 @@ $body-font-stack: 'Lato', Arial, sans-serif !default;
 $headline-font-stack: 'Inconsolata', monospace !default;
 $font-size: 16px;
 $body-font-color: #6A6A6A;
-$headline-font-color: #404040;
+$primary-color: #EF7766;
+// $primary-color: #404040;
 $divider-color: #D1D1D1;
 $hover-color: #45BFFF;
 $normal: 400;
@@ -17,16 +18,6 @@ body {
   font-size: $font-size;
   color: $body-font-color;
   background: $background-color;
-}
-
-a {
-  text-decoration: none;
-  color: $headline-font-color;
-}
-
-a:hover {
-  color: $hover-color;
-  padding-bottom: .05em;
 }
 
 main {

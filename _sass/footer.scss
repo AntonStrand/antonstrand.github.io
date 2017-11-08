@@ -30,11 +30,17 @@ footer {
       margin-left: .4em;
     }
 
-    a:hover .icon {
-      fill: $hover-color;
+    a {
+      color: $body-font-color;
+      opacity: .7;
     }
+    
     a:hover {
       color: $hover-color;
+      opacity: 1;
+      .icon {
+        fill: $hover-color;
+      }
     }
   }
 }
