@@ -24,16 +24,19 @@ header {
 
   .navigation li {
     margin-left: 1.5em;
-    .current {
-      color: $hover-color;
-    }
-  }
-
-  .navigation li a {
     color: $headline-font-color;
     font-weight: $bold;
     text-decoration: none;
+    
+    .current {
+      color: $hover-color;
+    }
+    
+    a:hover {
+      color: $hover-color;
+    }
   }
+  
 
 }
 
