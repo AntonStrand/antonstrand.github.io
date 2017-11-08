@@ -3,19 +3,21 @@ footer {
   .wrapper {
     border-top: 1px solid $divider-color;
     margin: 4em auto;
-    padding-top: .5em;
+    padding-top: 1em;
     width: 80%;
-    max-width: 800px;
+    max-width: $max-width;
   }
 
   ul,
   ul li {
+    margin: 0;
+    padding: 0;
     display: inline-block;
-    margin-bottom: .5em;
   }
   
   ul li {
-    margin-right: 1.5em;
+    margin: 0 .75em;
+    margin-bottom: 1em;
 
     svg {
       display: inline-flex;
