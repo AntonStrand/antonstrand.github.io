@@ -1,16 +1,15 @@
-@import url('https://fonts.googleapis.com/css?family=Lato|Inconsolata:700');
+@import url('https://fonts.googleapis.com/css?family=Lato|Roboto+Condensed:700');
 
 $body-font-stack: 'Lato', Arial, sans-serif !default;
-$headline-font-stack: 'Inconsolata', monospace !default;
+$headline-font-stack: 'Roboto+Condensed', sans-serif !default;
 $font-size: 16px;
 $body-font-color: #6A6A6A;
 $primary-color: #EF7766;
-// $primary-color: #404040;
 $divider-color: #D1D1D1;
 $hover-color: #45BFFF;
 $normal: 400;
 $bold: 700;
-$background-color: #F9F9F9;
+$background-color: #FCFCFC;
 $max-width: 800px;
 
 body {
