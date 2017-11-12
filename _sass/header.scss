@@ -1,43 +1,30 @@
 header {
   width: 100%;
-  display: flex;
-  justify-content: space-between;
-
-  .logotype,
-  .navigation,
-  .navigation li {
-    display: inline-block;
-  }
-
-  .logotype {
-    margin-left: 2em;
-    text-align: left;
-    margin-top: 1em;
-  }
-  
-  .navigation {
+  nav {
+    display: inline;
     text-align: right;
+  }
+  .navigation {
     margin-right: 2em;
+
+    li {
+      display: inline;
+      margin-left: 1.5em;
+      font-weight: $bold;
+      text-decoration: none;
+
+      .current {
+        color: $primary-color;
+      }
+      
+      a {
+        color: $body-font-color;
+      }
+
+      a:hover {
+        color: $hover-color;
+      }
+    }
   }
-
-  .navigation li {
-    margin-left: 1.5em;
-    font-weight: $bold;
-    text-decoration: none;
-    
-    .current {
-      color: $primary-color;
-    }
-    
-    a {
-      color: $body-font-color;
-    }
-
-    a:hover {
-      color: $hover-color;
-    }
-  }
-  
-
 }
 
