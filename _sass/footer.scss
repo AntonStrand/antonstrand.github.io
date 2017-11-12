@@ -31,14 +31,12 @@ footer {
     }
 
     a {
-      color: $body-font-color;
-      opacity: .7;
+      color: $secondary-font-color;
     }
     
     a:hover {
       color: $hover-color;
-      opacity: 1;
-      .icon {
+      .icon #Symbols g {
         fill: $hover-color;
       }
     }
