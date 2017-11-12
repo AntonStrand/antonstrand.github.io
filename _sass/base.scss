@@ -22,7 +22,7 @@ body {
 
 main {
   .wrapper {
-    margin: 0 auto;
+    margin: 2em auto;
     padding: 0 1em;
     max-width: $max-width;
   }
@@ -36,5 +36,9 @@ main {
       padding-bottom: 0;
       margin-left: .25em;
     }
+  }
+
+  img {
+    width: 100%;
   }
 }
