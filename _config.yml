@@ -16,11 +16,9 @@
 title: Anton Strand
 email: jag@antonstrand.se
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Den här sidan är en examinationsuppgift för kursen 1dv022 på LNU.Den är byggd m.h.a. Jekyll och Sass. Bloggen tar upp vissa moment i arbetet min syn på tillvägagångsättet.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://localhost:4000" # the base hostname & protocol for your site, e.g. http://example.com
 lang: sv
 twitter_username: apos28
 github_username:  antonstrand
