@@ -1,27 +1,4 @@
 ---
 layout: default
 ---
-{% if page.imageSrc %}
-  <img src="{{ page.imageSrc }}" alt="{{ page.imageAlt }}">
-{% endif %}
-
-<h1> {{ page.title }}</h1>
-
-<div class="post-data">
-  <span class="date"> {{ page.date | date: "%Y-%m-%d" }}</span>
-
-  {% if page.tags %}
-    <span class="tag-list">
-      <span class="icon">{% include icons/icn-tag.svg %}</span>
-      {% for tag in page.tags %} {% if forloop.last %}
-        <span class="tag">{{ tag }}</span>
-      {% else %}
-        <span class="tag">{{ tag }}, </span>
-      {% endif %} {% endfor %}
-    </span>
-  {% endif %}
-</div>
-
-<div class="content">
-  {{ page.content }}
-</div>
+{% include article.html post=page text=page.content%}

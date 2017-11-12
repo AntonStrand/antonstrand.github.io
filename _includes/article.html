@@ -1,0 +1,29 @@
+{% assign post = include.post %} {% assign text = include.text %}
+
+<div class="post">
+  {% if post.imageSrc %}
+  <img src="{{ post.imageSrc }}" alt="{{ post.imageAlt }}"> {% endif %}
+
+  <h1> {{ post.title }}</h1>
+
+  <div class="post-data">
+    <span class="date"> {{ post.date | date: "%Y-%m-%d" }}</span>
+
+    <span class="tag-list">
+      {% for tag in post.tags %}
+        {% if forloop.first %}
+          <span class="icon">{% include icons/icn-tag.svg %}</span>
+        {% endif %}
+        {% if forloop.last %}
+          <span class="tag">{{ tag }}</span>
+        {% else %}
+          <span class="tag">{{ tag }}, </span>
+        {% endif %}
+      {% endfor %}
+    </span>
+  </div>
+
+  <div class="content">
+    {{ text }}
+  </div>
+</div>

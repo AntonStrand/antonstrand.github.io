@@ -1,12 +1,12 @@
 ---
 layout: default
 ---
+{% include article.html post=site.posts.first text=site.posts.first.excerpt %}
 {{ content }}
-
 <ul class="post-list">
   {% for post in site.posts %}
-  <!-- Do not render latest post -->
   {% if forloop.last %}
+  <!-- Do not render latest post -->
   <li>
     <h2>
       <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
