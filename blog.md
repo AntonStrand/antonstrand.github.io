@@ -6,7 +6,7 @@ layout: blog
 title: Blogg
 ---
 
-![site.post[0].alt]({{ site.posts[0].image}})
+![site.post[0].imageAlt]({{ site.posts[0].imageSrc}})
 # {{ site.posts[0].title }}
 {{ site.posts[0].date | date: "%-d %B - %Y"}}
 
