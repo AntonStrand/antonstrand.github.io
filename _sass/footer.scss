@@ -27,17 +27,7 @@ footer {
 
     .label {
       margin-left: .4em;
-    }
-
-    a {
       color: $secondary-font-color;
-    }
-    
-    a:hover {
-      color: $hover-color;
-      .icon #Symbols g {
-        fill: $hover-color;
-      }
     }
   }
 }

@@ -16,7 +16,13 @@ a {
 
 a:hover {
   color: $hover-color;
-  padding-bottom: .05em;
+  
+  .label {
+    color: $hover-color;
+  }
+  .icon #Symbols g {
+    fill: $hover-color;
+  }
 }
 
 p {
