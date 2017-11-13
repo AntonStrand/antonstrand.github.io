@@ -10,7 +10,7 @@ description: >-
 ---
 Robots.txt är till för att på ett enkelt sätt säga vad robotar på webben får tillgång till. Kortfattat så kan man säga att det snarare är så att man sättet upp stoppskyltar än dörrar. I slutändan så är det upp till roboten att lyssna på begränsningarna eller inte. Därför är det viktigt att forfarande skydda sig mot robotar och inte ha känsliga uppgifter öppet. Det är även smart att snarare "låsa" en mapp med filerna än att skriva ut url:en till specifika filer eftersom robots.txt-filen är publik så istället blir det lättare för användare att hitta de filerna som du vill gömma.
 
-## SEO
+## Värt att tänka på angående SEO
 En websidan kan fortfarande indexeras av sökmotorer på andra sätt men Google vill ha tillgång till CSS- och javascript-filer för att kunna läsa sidan ordentligt. Om man inte tillåter det finns risken att hamna längre ner på sökresultat.
 
 ## Hur min robots.txt är konfiguerad
