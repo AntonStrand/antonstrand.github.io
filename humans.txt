@@ -1,0 +1,12 @@
+/* TEAM */
+    UI/Web designer,
+    Graphics,
+    Developer,
+    Author: Anton Strand
+    Twitter: @apos28
+    Location: Kalmar, Sweden
+
+/* SITE */
+    Last update:2017/11/13
+    Doctype:HTML5
+    Software: Visual Studio Code, Photoshop, Illustrator, Sketch App
