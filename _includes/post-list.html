@@ -1,12 +1,12 @@
-<ul class="post-list">
+<div class="post-list">
   {% for post in site.posts %}
     {% if forloop.first == false %}
-    <li>
-      <h2>
-        <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-      </h2>
-      <span class="post-meta">{{ post.date | date: "%Y-%m-%d" }}</span>
-    </li>
+    <a class="post-link" href="{{ post.url | relative_url }}">
+      <div class="post-list-item">
+        <h3>{{ post.title | escape }}</h3>
+        <span class="post-meta">{{ post.date | date: "%Y-%m-%d" }}</span>
+      </div>
+    </a>
     {% endif %}
   {% endfor %}
-</ul>
+  </div>

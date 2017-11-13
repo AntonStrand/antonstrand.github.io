@@ -1,25 +1,61 @@
 .post {
-  margin-bottom: 2em;
-  
+  margin-bottom: 1.5em;
   h1 {
     margin: 0.5em 0;
   }
+}
 
-  .post-data {
-    color: $secondary-font-color;
-    font-size: .9em;
+.post-meta {
+  color: $secondary-font-color;
+  font-size: .9em;
 
-    .tag-list {
-      margin: 3em;
-      .tag {
-        margin: .25em;
-      }
-      svg {
-        display: inline-flex;
-        vertical-align: middle;
-        position: relative;
-        height: 1.4em;
-      }
+  .tag-list {
+    margin: 3em;
+    .tag {
+      margin: .25em;
+    }
+    svg {
+      display: inline-flex;
+      vertical-align: middle;
+      position: relative;
+      height: 1.4em;
     }
   }
+}
+
+.post-list {
+  margin: 1em 0;
+  
+  h3 {
+    margin: 0 0 .5em;
+  }
+  
+  .post-list-item {
+    width: ($max-width - 104) / 2;
+    padding: 1em;
+    display: inline-block;
+    margin: .5em;
+    background: #FFF;
+    border: 1px solid #ebebeb;
+    border-radius:3px;
+  }
+
+  a:hover h3 {
+    color: $hover-color;
+  }
+}
+
+.btn-back {
+  .icon svg {
+    vertical-align: sub;
+    height: 1em;
+  }
+  .label {
+    margin-left: .3em;
+    vertical-align: middle;
+  }
+}
+
+#disqus_thread {
+  margin-top: 2em;
 }
