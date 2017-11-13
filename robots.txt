@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /
+Allow: /*.css$
+
+# Allow google, yahoo and live search.
+User-agent: Googlebot
+User-agent: Slurp
+User-agent: msnbot
+Allow: /
+
