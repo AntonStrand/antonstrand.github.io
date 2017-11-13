@@ -2,15 +2,17 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
+  
   <meta property="og:title" content='{{ page.title }}'/>
   <meta property="og:type" content="website" />
   <meta property="og:url" content='{{ site.url }}{{ page.url }}' />
   <meta property="og:image" content={{ site.url }}{{ page.imageSrc }} />
   <meta property="og:image:alt" content="{{ page.imageAlt }}" />
   <meta property="og:image" content="{{ site.url }}/assets/images/anton-strand-avatar.png" />
-  <meta property="og:description" content="{{ site.description }}" />
-
+  <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
+  
+  <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
   <title>{{page.title}}</title>
