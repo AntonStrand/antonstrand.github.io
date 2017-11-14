@@ -17,8 +17,6 @@
       margin: .25em;
     }
     svg {
-      display: inline-block;
-      vertical-align: middle;
       height: 1.4em;
     }
   }
@@ -32,7 +30,8 @@
   }
   
   .post-list-item {
-    width: ($max-width - 104) / 2;
+    width: calc((100% - 6.5em) / 2);
+    min-width: 300px;
     padding: 1em;
     display: inline-block;
     margin: .5em;
@@ -58,5 +57,5 @@
 }
 
 #disqus_thread {
-  margin-top: 2em;
+  margin-top: 2.5em;
 }
