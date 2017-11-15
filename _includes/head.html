@@ -6,9 +6,13 @@
   <meta property="og:title" content='{{ page.title }}'/>
   <meta property="og:type" content="website" />
   <meta property="og:url" content='{{ site.url }}{{ page.url }}' />
-  <meta property="og:image" content={{ site.url }}{{ page.imageSrc }} />
-  <meta property="og:image:alt" content="{{ page.imageAlt }}" />
-  <meta property="og:image" content="{{ site.url }}/assets/images/anton-strand-avatar.png" />
+  {% if page.imageSrc %}
+    <meta property="og:image" content={{ site.url }}{{ page.imageSrc }} />
+    <meta property="og:image:alt" content="{{ page.imageAlt }}" />
+  {% else %}
+    <meta property="og:image" content="{{ site.url }}/assets/images/anton-strand-avatar.png" />
+    <meta property="og:image:alt" content="Sidans defaultbild" />
+  {% endif %}
   <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
   
   <link rel="icon" href="favicon.ico" type="image/x-icon"/>
