@@ -22,6 +22,9 @@
         {% endif %}
       {% endfor %}
     </span>
+    {% if post.attribution %}
+      <span class="attribution">Image by: {{ post.attribution }}</span>
+    {% endif %}
   </div>
 
   <div class="content">

@@ -5,6 +5,7 @@ date:     2017-11-13 13:49:29 +0100
 tags:     robots.txt SEO spiders 1dv022
 imageSrc: /assets/images/robots.png
 imageAlt: robots.txt
+attribution: clipartkid (clipartkid.com) [<a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>]
 description: >-
   Vad är egentligen robots.txt och hur har jag implementerat det på den här siten?
 ---
