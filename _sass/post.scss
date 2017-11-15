@@ -27,6 +27,13 @@
   .attribution {
     margin-left: 3em;
   }
+
+  @media screen and (max-width: $breakpoint-mobile) {
+    .date, .tag-list, .attribution {
+      display: block;
+      margin: .4em 0;
+    }
+  }
 }
 
 .post-list {
@@ -38,13 +45,18 @@
   
   .post-list-item {
     width: calc((100% - 6.5em) / 2);
-    min-width: 300px;
+    // min-width: 300px;
     padding: 1em;
     display: inline-block;
     margin: .5em;
     background: #FFF;
     border: 1px solid #ebebeb;
     border-radius:3px;
+    @media screen and (max-width: $breakpoint-tablet) {
+     width: 100%; 
+     box-sizing: border-box;
+     margin: .5em 0;
+    }
   }
 
   a:hover {
@@ -76,3 +88,4 @@
 #disqus_thread {
   margin-top: 2.5em;
 }
+

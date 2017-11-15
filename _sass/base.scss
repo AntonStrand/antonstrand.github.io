@@ -12,6 +12,8 @@ $normal: 400;
 $bold: 700;
 $background-color: #FCFCFC;
 $max-width: 800px;
+$breakpoint-tablet: 690px;
+$breakpoint-mobile: 566px;
 
 body {
   font-family: $body-font-stack;
@@ -20,11 +22,20 @@ body {
   background: $background-color;
 }
 
+.page-content {
+  @media screen and (max-width: $breakpoint-tablet) {
+    max-width: $breakpoint-tablet;
+    width: 100%;
+  }
+}
+
 main {
   .wrapper {
     margin: 2em auto;
     padding: 0 1em;
+    width: 100%;
     max-width: $max-width;
+    box-sizing: border-box;
   }
 
   img {
@@ -47,6 +58,12 @@ main {
       margin: 0;
       margin-left: .5em;
       vertical-align: middle;
+    }
+
+    @media screen and (max-width: $breakpoint-mobile) {
+      h1, img {
+        margin:.2em 0;
+      }
     }
   }
 }
