@@ -1,14 +1,14 @@
 ---
 layout:   post
 title:    "Min syn på för-kompilerad CSS"
-date:     2017-11-08 19:03:29 +0100
+date:     2017-11-14 19:03:29 +0100
 tags:     SASS SCSS CSS 1dv022
 imageSrc: /assets/images/pre-compiling.png
 imageAlt: sass vs. css
 description: >-
   En sammanfattning om min erfarenthet och åsikt om att jobba med sass istället för ren CSS.
 ---
-Det här är mitt första projekt där jag använder mig av för-kompilerad CSS. Jag har valt att använda mig av Sass/Scss. Den största fördelen vid första anblick är att man kan på ett tydligare sätt strukturera upp CSS:en men fortfarande bara ha en CSS-fil att ladda in. Ju mer man sätter sig in i det så blir det tydligt att det är flera aspekter som gör livet lättare. Trots det så har jag kommit på mig själv att inte använda mig av Sass lösningar fullt ut. Under tiden jag har jobbat med det så har jag inte kommit fram till någon direkt nackdel förutom möjligtvis att det blir ytterligare en tjänst att använda sig i sin framtagning av webbplatsen.
+Det här är mitt första projekt där jag använder mig av för-kompilerad CSS. Jag har valt att använda mig av Sass/Scss. Den största fördelen vid första anblick är att man kan på ett tydligare sätt strukturera upp CSS:en men fortfarande bara ha en CSS-fil att ladda in. Ju mer man sätter sig in i det så blir det tydligt att det är flera aspekter som gör livet lättare. Trots det så har jag kommit på mig själv att inte använda mig av Sass alla lösningar fullt ut. Under tiden jag har jobbat med det så har jag inte kommit fram till någon direkt nackdel förutom möjligtvis att det blir ytterligare en tjänst att använda sig i sin framtagning av webbplatsen.
 
 ## Personlig favorit än så länge
 Under projektets gång så har jag lekt lite med designen och nya färger så det jag fanns mest användbart är utan tvekan möjligheten att kunna defininera variabler. Trots att CSS nu har stöd för variabler så föredrar jag Sass implementation mer. Den känns mer inuativ och lättanvänd samt att det stöds i alla webbläsare.
