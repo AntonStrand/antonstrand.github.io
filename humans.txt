@@ -6,6 +6,20 @@
     Twitter: @apos28
     Location: Kalmar, Sweden
 
+/* THANKS */
+    - For the Jekyll boilerplate used for this site.
+        Name: Johan Leitet
+        Github: Leitet
+        
+        Name: John Häggerud
+        Github: thajo
+
+        Name: Dan A.
+        Github: daalsmark
+
+    - For images used
+        Attribution is given in the blog posts where I'm using someone elses image. 
+
 /* SITE */
     Last update:2017/11/13
     Doctype:HTML5
