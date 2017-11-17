@@ -16,7 +16,7 @@
 title: Anton Strand
 email: jag@antonstrand.se
 description: >- # this means to ignore newlines until "baseurl:"
-  Den här sidan är en examinationsuppgift för kursen 1dv022 på LNU. Den är byggd m.h.a. Jekyll och Sass. Bloggen tar upp vissa moment i arbetet min syn på tillvägagångsättet.
+  Den här sidan är en examinationsuppgift för kursen 1dv022 på LNU. Den är byggd m.h.a. Jekyll och Sass. Bloggen tar upp vissa moment i arbetet och min syn på tillvägagångsättet.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://antonstrand.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 lang: sv
