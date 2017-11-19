@@ -6,7 +6,7 @@ tags:     [Open graph, 1dv022]
 imageSrc: /assets/images/open-graph.png
 imageAlt: Open graphs logotyp
 description: >-
-  Hur du på en snyggt sätt delar din hemsida genom att använda dig av Open Graph.
+  Hur du på ett snyggt sätt delar din hemsida genom att använda dig av Open Graph.
 ---
 Open Graph Protocol är ett sätt för oss utvecklare att definiera vilket innehåll som ska presenteras när vår sida delas på sociala medier. Det enda man behöver göra är att skapa meta-taggar i sidans header och fylla i den informationen man vill ska visas. Meta-taggen ska innehålla två värden, `property` som används till att berätta vilken typ av information det är och `content` innehåller värdet är på typen. T.ex: `<meta property="og:title" content="Titeln på den delade sidan" />`.
 
@@ -22,7 +22,7 @@ Jag har valt att även lägga till `og:description` som är en kort sammanfattni
 Den här informationen ska helst vara specifik per sida så jag har använt mig av sidornas YAML front matter för att spara den typen av information. Jag även gjort så att om en sida saknar en bild eller sammanfattning så använder jag mig av en defaultbild och webbplatsens generella beskrivning.
 
 ## Hur det blir i praktiken
-#### Det här är YAML front mattern för den här bloggposten
+#### YAML front mattern för den här bloggposten
 
 ```
 ---
@@ -33,12 +33,12 @@ tags:     [Open graph, 1dv022]
 imageSrc: /assets/images/open-graph.png
 imageAlt: Open graphs logotyp
 description: >-
-  Hur du på en snyggt sätt delar din hemsida genom att använda dig av Open Graph.
+  Hur du på ett snyggt sätt delar din hemsida genom att använda dig av Open Graph.
 ---
 ```
 
-#### Det här är meta-taggarna i sidans head
-Jag har valt att skapa min head som en include och använder mig därför av liquid för att få fram värdena från den aktuella sidan.
+#### Meta-taggarna i sidans head
+Jag har valt att skapa min head som en include och använder mig av liquid för att få fram värdena från den aktuella sidan.
 ```
 {% raw %}
 <meta property="og:title" content='{{ page.title }}'/>
